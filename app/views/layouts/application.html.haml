@@ -9,4 +9,10 @@
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   %body
     = render 'layouts/notifications'
-    = yield
+    %header.header
+      .header__title
+        = link_to "kobe works", '#', class: "header__title--text"
+      .header__right
+        = link_to "新規投稿", '#', class: "header__right--btn"
+    .contents
+      = yield
