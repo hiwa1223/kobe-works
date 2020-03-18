@@ -1,1 +1,6 @@
-kobe-works
+.contents.row
+  - @posts.each do |post|
+    .content_post{:style => "background-image: url(#{post.title});"}
+      -# %p= tweet.text
+      -# %span.name
+      -#   = tweet.name
