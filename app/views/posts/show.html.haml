@@ -1,11 +1,24 @@
 .postTitle
   = @post.title
-.postDate
-  = @post.created_at
+  .postDate
+  -# = @post.created_at
+.postPrice
+  .postPrice__under
+    = @post.price
+  〜 
+  .postPrice_limit
+    = @post.limit_price
+    円
 .postAuthor
 - if user_signed_in? && current_user.id == @post.user_id
   .postManage
     = link_to "編集", edit_post_path(@post.id), class: "postManage__edit"
     = link_to "削除", post_path(@post.id), method: :delete, class: "postManage__delete"
 .postText
+  = @post.production_deadline
+.postText
+  = @post.application_deadline
+.postText
   = simple_format @post.content
+.postText
+  = @post.mention
