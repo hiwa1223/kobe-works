@@ -9,3 +9,20 @@
     = link_to "削除", post_path(@post.id), method: :delete, class: "postManage__delete"
 .postText
   = simple_format @post.content
+.postText
+  = simple_format @post.company_information
+.postText
+  = simple_format @post.about_product
+.postText
+  = simple_format @post.recruitment_background
+.postText
+  = simple_format @post.job_occupation
+.postText
+  = simple_format @post.skill
+.postText
+  = simple_format @post.expected_experience
+.postText
+  = simple_format @post.attraction_of_company
+.postText
+  = simple_format @post.attraction_of_job
+
