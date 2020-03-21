@@ -3,7 +3,7 @@
 }
 
 body{
-  background-color: #f6f6f6;
+  background-color: #fff;
   min-width: 650px;
   .header{
     height: 56px;
@@ -46,6 +46,9 @@ body{
           height: 55px;
           width: 55px;
           border: solid 1px;
+          font-size: small;
+          line-height: 55px;
+          text-align: center;
         }
       }
       &__right{
