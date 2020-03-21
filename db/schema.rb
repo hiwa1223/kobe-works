@@ -22,6 +22,16 @@ ActiveRecord::Schema.define(version: 2020_03_18_091346) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "user_id"
+    t.integer "limit_price"
+    t.string "company_information"
+    t.string "about_product"
+    t.string "recruitment_background"
+    t.string "job_occupation"
+    t.string "skill"
+    t.string "expected_experience"
+    t.string "attraction_of_company"
+    t.string "attraction_of_job"
+    t.string "attraction_of_environment"
   end
 
   create_table "users", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
