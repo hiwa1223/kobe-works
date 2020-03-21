@@ -2,6 +2,21 @@
   新規案件の投稿
 
 = form_with model: @post, class: :form, local: true do |form|
-  = form.text_field :title, placeholder: :タイトル, class: :form__title
-  = form.text_area :content, placeholder: :ブログ本文, class: :form__text
+  = form.text_field :title, placeholder: :案件名, class: :form__title
+  = form.text_field :lower_limit_price, placeholder: :下限額, class: :form__title
+  = form.text_field :upper_limit_price, placeholder: :上限額, class: :form__title
+  = form.text_area :content, placeholder: :業務内容, class: :form__text
+  = form.text_area :company_information, placeholder: :企業概要, class: :form__title
+  = form.text_area :about_product, placeholder: :プロダクトについて, class: :form__title
+  = form.text_area :recruitment_background, placeholder: :募集背景, class: :form__title
+  = form.text_field :job_occupation, placeholder: :職種, class: :form__title
+  = form.text_area :skill, placeholder: :スキル, class: :form__title
+  = form.text_field :expected_experience, placeholder: :求められる経験, class: :form__title
+  = form.text_area :attraction_of_company, placeholder: :会社の魅力, class: :form__title
+  = form.text_area :attraction_of_job, placeholder: :案件の魅力, class: :form__title
+  = form.text_area :attraction_of_environment, placeholder: :環境の魅力, class: :form__title
+  応募期限
+  = form.date_select :application_deadline, default: { year: 2020, month: 1, day: 1 }
+  納期
+  = form.date_select :production_deadline, default: { year: 2020, month: 1, day: 1 }
   = form.submit '投稿する', class: :form__btn
