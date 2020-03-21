@@ -1,11 +1,57 @@
 .postTitle
   = @post.title
-.postDate
-  = @post.created_at
+-# .postDate
+-#   = @post.created_at
 .postAuthor
 - if user_signed_in? && current_user.id == @post.user_id
   .postManage
     = link_to "編集", edit_post_path(@post.id), class: "postManage__edit"
     = link_to "削除", post_path(@post.id), method: :delete, class: "postManage__delete"
-.postText
-  = simple_format @post.content
+
+.jobtable-container
+  %dl.demo_dl
+    %dt.demo_dt
+      %p 業務内容
+    %dd.demo_dd 
+      = simple_format @post.content
+    %dt.demo_dt
+      %p 関わるサービス・プロダクト
+    %dd.demo_dd 
+      ■企業情報
+      = simple_format @post.company_information
+      ■プロダクトについて
+      = simple_format @post.about_product
+      ■募集背景
+      = simple_format @post.recruitment_background
+    %dt.demo_dt
+      %p 職種
+    %dd.demo_dd
+      = @post.job_occupation
+    %dt.demo_dt
+      %p スキル
+    %dd.demo_dd
+      = simple_format @post.skill
+    %dt.demo_dt
+      %p 求められる経験
+    %dd.demo_dd
+      = simple_format @post.expected_experience
+    %dt.demo_dt
+      %p 会社の魅力
+    %dd.demo_dd
+      = simple_format @post.attraction_of_company
+    %dt.demo_dt
+      %p 仕事の魅力
+    %dd.demo_dd
+      = simple_format @post.attraction_of_job
+    %dt.demo_dt
+      %p 環境の魅力
+    %dd.demo_dd
+      = simple_format @post.attraction_of_environment
+    %dt.demo_dt
+      %p 納期
+    %dd.demo_dd
+      = @post.production_deadline
+    %dt.demo_dt
+      %p 応募期日
+    %dd.demo_dd
+      = @post.application_deadline
