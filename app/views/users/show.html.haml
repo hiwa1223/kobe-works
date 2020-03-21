@@ -1,5 +1,5 @@
 .postTitle
   = @user.nickname
-  さんの投稿案件一覧
+  さんの募集案件一覧
 - @posts.each do |post|
   = render partial: "posts/post", locals: { post: post }

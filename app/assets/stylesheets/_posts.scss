@@ -33,7 +33,7 @@ body{
   .contents{
     margin: 30px auto 0;
     background-color: #fff;
-    height: 600px;
+    // height: 100vh;
     width: 70%;
     overflow: scroll;
     .content{
@@ -136,16 +136,85 @@ body{
       width: 100%;
       height: 50px;
     }
-    &__text{
+    &__lower_limit_price{
       display: block;
       width: 100%;
-      height: 50%;
+      height: 50px;
+    }
+    &__upper_limit_price{
+      display: block;
+      width: 100%;
+      height: 50px;
+    }
+    &__content{
+      display: block;
+      width: 100%;
+      height: 200px;
       margin-top: 15px;
     }
+    &__company_information{
+      display: block;
+      width: 100%;
+      height: 100px;
+    }
+    &__about_product{
+      display: block;
+      width: 100%;
+      height: 100px;
+    }
+    &__recruitment_background{
+      display: block;
+      width: 100%;
+      height: 100px;
+    }
+    &__job_occupation{
+      display: block;
+      width: 100%;
+      height: 50px;
+      margin-top: 15px;
+    }
+    &__skill{
+      display: block;
+      width: 100%;
+      height: 50px;
+    }   
+    &__expected_experience{
+      display: block;
+      width: 100%;
+      height: 150px;
+    }
+    &__attraction_of_company{
+      display: block;
+      width: 100%;
+      height: 100px;
+      margin-top: 15px;
+    }
+    &__attraction_of_job{
+      display: block;
+      width: 100%;
+      height: 100px;
+    }
+    &__attraction_of_environment{
+      display: block;
+      width: 100%;
+      height: 100px;
+      margin-bottom: 15px;
+    }
+    // &__application_deadline{
+    //   display: block;
+    //   width: 100%;
+    //   height: 50px;
+    // }
+    // &__production_deadline{
+    //   display: block;
+    //   width: 100%;
+    //   height: 50px;
+    // }
     &__btn{
       display: block;
       width: 30%;
       margin: 15px auto 0;
+      margin-bottom: 20px;
     }
   }
   .user{
