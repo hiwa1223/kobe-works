@@ -55,3 +55,12 @@
       %p 応募期日
     %dd.demo_dd
       = @post.application_deadline
+.application_form
+  .application_btn
+    応募画面に進む
+-# - if @product.sold.present?
+-#   .show__item__buy__confirm
+-#     = @product.sold
+-# - else
+  -# .show__item__buy__btm
+  -#   = link_to "", method: :get do

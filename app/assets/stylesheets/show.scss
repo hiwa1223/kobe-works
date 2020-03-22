@@ -28,3 +28,17 @@
 .demo_dt span {
   font-size: 14px;
 }
+.application_form{
+  height: 100px;
+  width: 100%;
+}
+.application_btn{
+  height: 50px;
+  width: 250px;
+  background-color: $color_red;
+  margin-bottom: 30px;
+  color: $white;
+  line-height: 50px;
+  margin: 0 auto;
+  text-align: center;
+}
