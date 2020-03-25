@@ -2,8 +2,6 @@
   募集案件の編集
 = form_with model: @post, class: :form, local: true do |form|
   = form.text_field :title, placeholder: :案件名, class: :form__title
-  = form.text_field :lower_limit_price, placeholder: :下限額, class: :form__title
-  = form.text_field :upper_limit_price, placeholder: :上限額, class: :form__title
   = form.text_area :content, placeholder: :業務内容, class: :form__text
   = form.text_area :company_information, placeholder: :企業概要, class: :form__title
   = form.text_area :about_product, placeholder: :プロダクトについて, class: :form__title
