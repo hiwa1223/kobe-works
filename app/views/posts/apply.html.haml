@@ -1,0 +1,28 @@
+.apply
+  .apply__title
+  .apply__box
+    .apply__box__title
+      応募内容の確認
+    .apply__box__detail
+      .apply__box__detail__title
+        = @post.title
+    .apply__box__pay
+      .apply__box__pay__price
+        .apply__box__pay__price__titile
+          受注金額
+        .apply__box__pay__price__yen
+          .apply__box__pay__price__yen_lower
+            ¥
+            = @post.lower_limit_price
+          .apply__box__pay__price__yen_upper
+            〜 ¥
+            = @post.upper_limit_price
+    .apply__box__member
+      .apply__box__member__left
+        発注元
+      .apply__box__member__right
+        = @post.user.name
+    .apply__box__how
+      .apply__box__how__btm
+        = link_to confirm_post_path, method: :post do
+          応募する
