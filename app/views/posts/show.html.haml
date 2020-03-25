@@ -55,6 +55,11 @@
       %p 応募期日
     %dd.demo_dd
       = @post.application_deadline
+    %dt.demo_dt
+      %p 金額
+    %dd.demo_dd
+      ¥
+      = @post.lower_limit_price
 .application_form
   .application_btn
     = link_to "応募画面に進む", apply_post_path
