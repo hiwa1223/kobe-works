@@ -1,5 +1,6 @@
 class PostsController < ApplicationController
-  
+  require 'payjp'
+
   def index
     @posts = Post.includes(:user)
   end
@@ -38,6 +39,15 @@ class PostsController < ApplicationController
   end
 
   def confirm
+  end
+
+  def purchase
+    Payjp.api_key = "秘密鍵"
+    Payjp::Charge.create(
+      amount: 777, # 決済する値段
+      card: params['payjp-token'], # フォームを送信すると作成・送信されてくるトークン
+      currency: 'jpy'
+    )
   end
 
   private

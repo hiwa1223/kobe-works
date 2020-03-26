@@ -3,6 +3,7 @@
   %head
     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
     %title KobeWorks
+    %script{src: "https://js.pay.jp/", type: "text/javascript"}
     = csrf_meta_tags
     = csp_meta_tag
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
@@ -15,7 +16,6 @@
       .header__right
         - if user_signed_in?
           = link_to current_user.nickname, user_path(current_user), class: "header__right--btn"
-          = link_to "決済情報登録", new_card_path, class: "header__right--btn"
           = link_to "新規案件募集", new_post_path, class: "header__right--btn"
           = link_to "ログアウト", destroy_user_session_path, method: :delete, class: "header__right--btn"
         - else

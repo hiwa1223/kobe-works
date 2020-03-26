@@ -7,6 +7,7 @@
   .postManage
     = link_to "編集", edit_post_path(@post.id), class: "postManage__edit"
     = link_to "削除", post_path(@post.id), method: :delete, class: "postManage__delete"
+    
 
 .jobtable-container
   %dl.demo_dl
@@ -61,11 +62,11 @@
       ¥
       = @post.lower_limit_price
 .application_form
-  .application_btn
-    = link_to "応募画面に進む", apply_post_path
--# - if @product.sold.present?
--#   .show__item__buy__confirm
--#     = @product.sold
--# - else
-  -# .show__item__buy__btm
-  -#   = link_to "", method: :get do
+  - if user_signed_in? && current_user.id == @post.user_id
+    .payjp_btn
+      = form_with url: purchase_post_path do
+        :plain
+          <script type="text/javascript" src="https://checkout.pay.jp" class="payjp-button" data-key="公開鍵"></script>
+  - else
+    .application_btn
+      = link_to "応募画面に進む", apply_post_path

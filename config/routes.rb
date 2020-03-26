@@ -6,6 +6,7 @@ Rails.application.routes.draw do
       get 'apply', to: 'posts#apply'
       post 'confirm', to: 'posts#confirm'
       get 'confirm', to: 'posts#confirm'
+      get 'purchase', to: 'posts#purchase'
     end
   end
   resources :users, only: [:edit, :update, :show]
