@@ -9,4 +9,5 @@ Rails.application.routes.draw do
     end
   end
   resources :users, only: [:edit, :update, :show]
+  resources :cards, only: [:new, :create, :edit, :update, :show]
 end
