@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   resources :posts do
     member do
       get 'apply', to: 'posts#apply'
-      post 'confirm', to: 'gets#confirm'
+      post 'confirm', to: 'posts#confirm'
       get 'confirm', to: 'posts#confirm'
     end
   end
