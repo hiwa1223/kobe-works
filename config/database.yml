@@ -50,5 +50,6 @@ test:
 production:
   <<: *default
   database: kobe-works_production
-  username: kobe-works
-  password: <%= ENV['KOBE-WORKS_DATABASE_PASSWORD'] %>
+  username: root
+  password: <%= ENV['DATABASE_PASSWORD'] %>
+  socket: /var/lib/mysql/mysql.sock
