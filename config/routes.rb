@@ -9,6 +9,7 @@ Rails.application.routes.draw do
       get 'purchase', to: 'posts#purchase'
     end
   end
+  resources :messages, only: [:index]
   resources :users, only: [:edit, :update, :show]
   resources :cards, only: [:new, :create, :edit, :update, :show]
 end
