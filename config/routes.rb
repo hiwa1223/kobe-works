@@ -12,5 +12,5 @@ Rails.application.routes.draw do
   resources :messages, only: [:index]
   resources :users, only: [:edit, :update, :show]
   resources :cards, only: [:new, :create, :edit, :update, :show]
-  resources :groups, only: [:new, :create]
+  resources :groups, only: [:index, :new, :create, :edit, :update]
 end
