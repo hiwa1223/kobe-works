@@ -39,6 +39,7 @@ class PostsController < ApplicationController
   end
 
   def confirm
+    
   end
 
   def purchase
