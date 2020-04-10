@@ -71,7 +71,7 @@
 案件詳細画面から「編集」をクリックすると、以下のような画面が表示されて編集が可能です。
 なお、「削除」をクリックすると案件が削除されて、トップページに戻ります。
 
-![画像名](https://github.com/hiwa1223/kobe-works/blob/master/kobe-works%E6%A1%88%E4%BB%B6%E7%B7%A8%E9%9B%86.png
+![画像名](https://github.com/hiwa1223/kobe-works/blob/master/kobe-works%E6%A1%88%E4%BB%B6%E7%B7%A8%E9%9B%86.png)
 
 ### 2.8 案件応募機能
 
