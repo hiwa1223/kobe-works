@@ -18,7 +18,7 @@
 
 以下のフォーマットに則って、アカウントを作成します。
 
-![画像名](
+![画像名](https://github.com/hiwa1223/kobe-works/blob/master/kobe-works-create-acccount.png)
 
 ### 2.2 アカウント編集機能
 
