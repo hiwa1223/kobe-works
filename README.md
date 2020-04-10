@@ -32,9 +32,19 @@
 
 ![画像名](https://github.com/hiwa1223/kobe-works/blob/master/kobe-works-login.png)
 
-### 2.4 案件登録機能7
+### 2.4 案件登録機能
 
-### 2.5.1 投稿案件表示機能
+画面上部の新規案件募集をクリックすると、案件登録機能に遷移します。
+
+入力を行い、登録をするボタンを実行することで、案件が登録されます。
+
+登録後は、案件一覧(2.5.1)に移行します。
+
+![画像名](https://github.com/hiwa1223/kobe-works/blob/master/%E6%96%B0%E8%A6%8F%E6%A1%88%E4%BB%B6%E3%81%AE%E5%8B%9F%E9%9B%86%EF%BC%91.png)
+
+![画像名](https://github.com/hiwa1223/kobe-works/blob/master/%E6%96%B0%E8%A6%8F%E6%A1%88%E4%BB%B6%E3%81%AE%E5%8B%9F%E9%9B%86%EF%BC%92.png)
+
+### 2.5.1 案件一覧表示機能
 
 ### 2.5.2 ユーザー別投稿案件表示機能
 
