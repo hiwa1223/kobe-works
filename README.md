@@ -50,7 +50,7 @@
 
 なお、「kobe works」のロゴをクリックしても、トップページを表示させることが出来ます。
 
-![画像名](https://github.com/hiwa1223/kobe-works/blob/master/kobe-works_%E6%A1%88%E4%BB%B6%E4%B8%80%E8%A6%A7%E7%94%BB%E9%9D%A2.png
+![画像名](https://github.com/hiwa1223/kobe-works/blob/master/kobe-works_%E6%A1%88%E4%BB%B6%E4%B8%80%E8%A6%A7%E7%94%BB%E9%9D%A2.png)
 
 ### 2.5.2 ユーザー別投稿案件表示機能
 
