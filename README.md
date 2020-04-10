@@ -24,14 +24,7 @@
 
 ## 3.環境
 
-Ruby
-Ruby on Rails
-Haml
-SCSS
-Javascript
-jQuery
-Mysql
-aws
+Ruby,Ruby on Rails,Haml,SCSS,Javascript,jQuery,Mysql,AWS
 
 Ruby on Railsのフレームワークを用いて実装しました。
 
