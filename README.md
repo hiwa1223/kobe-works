@@ -37,8 +37,9 @@ Ruby on Railsのフレームワークを用いて実装しました。
 
 データベースは、開発環境・本番環境ともにMYSQLです。
 
-
 AWSのEC2インスタンスを用いて本番環境を構築しました。
+
+![画像名](https://github.com/hiwa1223/kobe-works/blob/master/%E6%9C%AC%E7%95%AA%E7%92%B0%E5%A2%83.png)
 
 アプリケーションサーバーは、unicorn
 
