@@ -8,9 +8,9 @@
 
 そういった場で、案件のやりとりができるシステムです。
 
-ユーザー登録機能や案件登録機能、メッセージ機能などを実装しています。
+ユーザー登録機能や案件登録機能、メッセージ機能などを実装しています
 
-![画像名](https://github.com/hiwa1223/kobe-works/blob/master/kobe-works%E8%AA%AC%E6%98%8E.png)
+![画像名](https://github.com/hiwa1223/kobe-works/blob/master/kobe-works%20%E3%82%A2%E3%83%95%E3%82%9A%E3%83%AA%E8%AA%AC%E6%98%8E.png)
 
 ## 2.機能説明及び使い方
 
