@@ -85,7 +85,9 @@
 
 ### 2.8 メッセージ機能
 
+画面上部のメッセージをクリックすると、メッセージをやり取りすることが出来ます。
 
+![画像名](https://github.com/hiwa1223/kobe-works/blob/master/kobe-works-messege.png)
 
 ## 3.環境
 
