@@ -22,9 +22,15 @@
 
 ### 2.2 アカウント編集機能
 
+以下のページにて、アカウントを編集することが出来ます。
+
 ![画像名](https://github.com/hiwa1223/kobe-works/blob/master/kobe-works-edit-account.png)
 
 ### 2.3 ログイン機能
+
+作成したアカウントで、ログインをします。メールアドレスとパスワードが必要です。
+
+![画像名](https://github.com/hiwa1223/kobe-works/blob/master/kobe-works-login.png)
 
 ### 2.4 案件登録機能7
 
