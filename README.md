@@ -1,24 +1,60 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 1.アプリ説明
 
-Things you may want to cover:
+クラウドソーシングサービスです。
+近年、コワーキングスペースなどが増え、フリーランスの方が活躍できるようになりました。
+そういった場で、案件のやりとりができるシステムです。
+ユーザー登録機能や案件登録機能、メッセージ機能などを実装しています。
 
-* Ruby version
+## 2.機能説明及び使い方
 
-* System dependencies
+### 2.1 ログイン機能
 
-* Configuration
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
 
-* ...
+## 3.環境
+
+Ruby
+Ruby on Rails
+Haml
+SCSS
+Javascript
+jQuery
+Mysql
+aws
+
+Ruby on Railsのフレームワークを用いて実装しました。
+
+データベースは、開発環境・本番環境ともにMYSQLです。
+
+
+AWSのEC2インスタンスを用いて本番環境を構築しました。
+
+アプリケーションサーバーは、unicorn
+
+webサーバーは、nginx
+
+データベースサーバーは、MYSQLが対応しています。
+
+capistranoを用いて、デプロイ作業を自動化しています。
+
+
+## 4.制作の背景
+
+web関連の仕事を探していた際に、web制作とコワーキングスペースの両方の事業を行っている会社さんに出会った。
+
+将来、単なる交流だけでなく案件のやり取りまでを行えるようにしたいというお話があったので、
+
+実際にそういったシステムを、自分が学んだ技術を用いて実装した。
+
+## 5.今後の追加機能
+
+メッセージ機能の非同期通信実装
+入金をメッセージではなく、システムでやり取りできるようにする
+追加
+
