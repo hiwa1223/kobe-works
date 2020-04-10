@@ -54,6 +54,10 @@
 
 ### 2.5.2 ユーザー別投稿案件表示機能
 
+画面上部の名前をクリックすると、ユーザー別の投稿案件を表示させることが出来ます。
+
+![画像名](https://github.com/hiwa1223/kobe-works/blob/master/kobe_works_user_jobs.png)
+
 ### 2.6 案件編集機能
 
 ### 2.7 案件応募機能
